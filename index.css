@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+#intro {
+  background:
+    linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+    ),
+    url("res/background.jpg");
+  /* background-image: */ 
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+#intro-text {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  /* vertical-align: middle; */
+  /* line-height: 100vh; */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
+  margin: 0;
+  font-size: 5em;
+}
